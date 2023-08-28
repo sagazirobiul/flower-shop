@@ -1,0 +1,137 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+/* Common styles */
+.middle-box {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-title {
+    margin-top: 150px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.primary-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.primary-btn {
+    font-size: 20px;
+    border-radius: 8px;
+    background: #E55473;
+    padding: 15px 30px;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* Header styles */
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url("images/pngwing 10.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 42%;
+}
+
+#header-description {
+    text-align: left;
+}
+
+.header-content {
+    width: 50%;
+    padding: 50px 20px 80px 0;
+}
+
+.header-content>h2 {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+/* featured flower styles */
+.featured-card-container {
+    display: flex;
+    align-items: center;
+    gap: 100px
+}
+
+.featured-flower-card {
+    width: 33.33%;
+    text-align: center;
+}
+
+.featured-img-box {
+    border-radius: 400px 400px 0 0;
+    padding: 60px 10px 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.featured-img-box img {
+    max-height: 300px;
+    width: auto;
+    margin-bottom: -5px;
+}
+
+
+.featured-img-box-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.featured-img-box-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    ;
+}
+
+.featured-img-box-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.featured-flower-card a {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+/* Support container styles */
+.support-container {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 60px 80px 50px;
+    margin: 150px 0;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.support-container h4 {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+}
