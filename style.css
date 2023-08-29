@@ -241,3 +241,54 @@ footer{
     font-size: 16px;
     font-weight: 400;
 }
+
+/* Review Section Styles */
+
+#review{
+    background-color: #FEF6F8;
+    padding: 10px 0 120px; 
+}
+
+.review-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.review-card{
+    width: 32.33%;
+    border-radius: 5px;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: #FFF;
+    box-shadow: 5px 5px 10px #ededed;
+}
+
+.review-card img{
+    display: inline-block;
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 4px solid #E55473;
+    margin-bottom: 10px;
+}
+
+.customer-name{
+    color: #272727;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.customer-designation{
+    color: rgba(39, 39, 39, 0.60);
+    margin: 5px 0 10px;
+}
+
+.customer-review{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+}
